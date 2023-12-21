@@ -6,12 +6,12 @@ output "vnet_id" {
 
 output "control_plane_subnet_id" {
   value       = azurerm_subnet.control_plane.id
-  description = "The ID of the control plane subnet within the VNet."
+  description = "The ID of the control plane"
 }
 
 output "worker_node_subnet_id" {
   value       = azurerm_subnet.worker_nodes.id
-  description = "The ID of the worker node subnet within the VNet."
+  description = "The ID of the worker node subnet"
 }
 
 output "networking_resource_group_name" {
